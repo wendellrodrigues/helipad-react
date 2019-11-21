@@ -1,3 +1,12 @@
-.droneCard {
-  text-align: "center"
+.droneCard_occupied {
+  border-radius: 8px;
+  text-align: "center";
+  box-shadow: 0px 20px 1000px 15px #f5ae93;
 }
+
+.droneCard_unoccupied {
+  border-radius: 8px;
+  text-align: "center";
+  box-shadow: 0px 20px 1000px 15px #b7e1ce;
+}
+

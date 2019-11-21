@@ -1,17 +1,28 @@
-import React from 'react';
-import './App.css';
+import React  from 'react'
+import Card   from './Card/Card.jsx'
+import Nav    from './Nav/Nav.jsx'
 
-import Card from './Card/Card.jsx'
-import Nav from './Nav/Nav.jsx'
+import './App.css'
 
-function App() {
+const App = () => {
+
   return (
+
     <div className="App">
       <Nav/>
 
-      <h4>
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <h3>
         Landing Pad
-      </h4>
+      </h3>
+
+      <br></br>
+      <br></br>
+      <br></br>
+
 
       <div className="divider"></div>
       <div className="container-fluid d-flex justify-content-center">
